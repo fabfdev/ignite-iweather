@@ -78,7 +78,7 @@ export function Dashboard() {
         onChange={setSearch}
         onPress={handleSelect}
         isLoading={isSearching}
-        placeholder="Buscar local"
+        placeholder="Buscar local - teste"
       />
 
       <WeatherToday city={city.name} weather={weather.today.weather} />
