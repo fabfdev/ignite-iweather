@@ -13,6 +13,7 @@
       }
     },
     "production": {
+      "autoIncrement": true,
       "env": {
         "EXPO_PUBLIC_WEATHER_APP_ID": ""
       }
