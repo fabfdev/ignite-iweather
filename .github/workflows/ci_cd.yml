@@ -50,3 +50,5 @@ jobs:
 
             - name: Build
               run: eas build --platform android --profile preview --non-interactive --no-wait
+              env:
+                EAS_PROJECT_ID: ${{ secrets.EAS_PROJECT_ID }}
