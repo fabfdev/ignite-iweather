@@ -1,3 +1,7 @@
+import * as dotenv from "dotenv";
+
+dotenv.config();
+
 module.exports = {
   expo: {
     name: "iweather",
@@ -31,8 +35,14 @@ module.exports = {
     extra: {
       eas: {
         projectId: process.env.EAS_PROJECT_ID,
-      },
+      }
     },
     plugins: ["expo-font"],
+    runtimeVersion: {
+      policy: "appVersion",
+    },
+    updates: {
+      url: "https://u.expo.dev/d0dd5bfd-8c9d-484d-82a5-32d3c4b92132",
+    },
   },
 };
