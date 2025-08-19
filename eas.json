@@ -23,7 +23,7 @@
     }
   },
   "submit": {
-    "preview": {
+    "production": {
       "android": {
         "track": "internal",
         "serviceAccountKeyPath": "./google-services.json",
