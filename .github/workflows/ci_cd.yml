@@ -61,6 +61,6 @@ jobs:
               run: npm install
 
             - name: Build and Submit
-              run: eas build --platform android --profile production --non-interactive --auto-submit-with-profile=preview --no-wait
+              run: eas build --platform android --profile production --non-interactive --auto-submit-with-profile=production --no-wait
               env:
                 EAS_PROJECT_ID: ${{ secrets.EAS_PROJECT_ID }}
