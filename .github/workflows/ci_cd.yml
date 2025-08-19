@@ -26,6 +26,8 @@ jobs:
 
             - name: Run tests
               run: npm test
+              env:
+                WEATHER_APP_ID: ${{ secrets.WEATHER_APP_ID }}
     CD:
         name: Continuous Delivery
         runs-on: ubuntu-latest
